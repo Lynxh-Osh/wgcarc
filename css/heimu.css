@@ -1,0 +1,10 @@
+#heimu
+    {
+        background-color: #393939;
+        color: #393939;
+        transition: color 0.5s;
+    }
+#heimu:hover
+    {
+        color: #ffffff;
+    }

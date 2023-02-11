@@ -1,0 +1,86 @@
+/*
+[無根草-檔案記錄] 2023.01.07
+本站域名: wgcarc.diaries.ga
+站主: Joulier429
+該網站所有文檔與視頻內容均來自bilibili up主@無根草arc, 版权为其所有, 本人仅负责搬运 
+無根草的bilibili主頁如下:
+https://space.bilibili.com/3461576438843938
+joulier429@xxxhi.cc為站主郵箱, 有問題可以找我商量, 我盡力幫你解答
+*/
+
+/*
+配色:
+    背景: #000000
+    字體:
+        通常: #ffffff
+        超鏈接:
+            未點擊: #ffffff
+            已點擊: #cccccc
+            鼠標懸停: #d4d4d4
+            點擊: #F38518
+    邊框:
+        大邊框: #6fc3df
+        小邊框: #f38518
+*/
+
+body
+{
+    background: #000000;
+}
+
+button
+{
+    border-style: solid;
+    border-width: 1px;;
+    border-color: #F38518;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/*超鏈接*/
+a:link{color: #ffffff;}
+a:visited{color: #cbcbcb;}
+a:active{color: #F38518;}
+
+#zhengWen/* 正文 */
+{
+    max-width: 70%;
+    margin: 16px auto;
+    color: #ffffff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #6FC3DF;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+table, th, td
+{
+    border-style: solid;
+    border-color: #6FC3DF;
+    border-width: 1px;
+    border-width: 1px;
+    width: 100%;
+}
+
+input[type="text"]
+{
+    width: 240px;
+    border-style: solid;
+    border-color: #F38518;
+    border-width: 1px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+input[type="submit"]
+{
+    width: auto;
+    border-style: solid;
+    border-color: #F38518;
+    border-width: 1px;
+    background-color: #000000;
+    color: #ffffff;
+}

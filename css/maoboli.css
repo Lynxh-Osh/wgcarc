@@ -1,0 +1,10 @@
+#maoboli
+{
+    background: rgba(255, 255, 255, 0.7);
+    width: 75%;
+    margin: 0 auto;/*居中*/
+    -webkit-backdrop-filter: blur(8px);/*高斯模糊*/
+    backdrop-filter: blur(8px);/*高斯模糊*/
+    border-radius: 6px;/*圓角*/
+    box-shadow:inset 0 0 26px rgba(255, 255, 255, 0);/*影子*/
+}
